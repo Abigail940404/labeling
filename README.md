@@ -3,8 +3,10 @@
 一个简单的标注系统，可以将标注的图片和位置甚至其他属性保存到数据库中……just like LabelMe~
 
 1、根据代码自己写个数据库，数据库名nodesample，表名：user
+
 数据库的Column name为：
 `id`, `imagename`, `X`, `Y`,`Width`,`Height`,`Cartype`,`Colr`
+
 2、直接run：npm start就能使用了！
 
 3、目前在chrome下面是可以的，在edge下面还有一点bug
