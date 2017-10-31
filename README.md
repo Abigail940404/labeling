@@ -1,12 +1,13 @@
 # labeling
 
-一个简单的标注系统，just like LabelMe~
+一个简单的标注系统，可以将标注的图片和位置甚至其他属性保存到数据库中……just like LabelMe~
 
-1、根据代码自己写个数据库，数据库名nodesample，表名：user 
+1、根据代码自己写个数据库，数据库名nodesample，表名：user
+数据库的Column name为：
+`id`, `imagename`, `X`, `Y`,`Width`,`Height`,`Cartype`,`Colr`
+2、直接run：npm start就能使用了！
 
-2、先：npm install一下，别忘了还有一部分例如Mysql的库都要install一下；不过如果是直接用压缩文件labeling可以跳过这步
-
-3、再run：npm start就能使用了！
+3、目前在chrome下面是可以的，在edge下面还有一点bug
 
 4、最好自己重新建一遍，才能更好适配自己的需求！
 
